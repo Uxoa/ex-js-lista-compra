@@ -42,9 +42,14 @@ h1 {
   list-style-type: none;
   font-size: 24px;
   display: flex;
+  /*list-style-type: inline;*/
   justify-content: space-between;
   /* border-bottom: 1px dashed #333; */
   margin-bottom: 10px;
+}
+
+.textSpan {
+  text-decoration: line-through;
 }
 
 .item-delete-btn {
